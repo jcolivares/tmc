@@ -3,19 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejemplo 1 </title>
+    <style>
+        /*selector de etiqueta*/
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+        
+        p:hover{
+            font-size: 40px;
+            text-align: right;
+        }
+    </style>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
    
    <header id="encabezado">
-         <h1>Ejemplo 1 unid asad</h1>
-        <h2>Subtitulo</h2>
+         
+             <h1 id="title">Ejemplo 1 unid asad</h1>
+         
+         
+        <h2 style="color:blue;background-color:black" class="estilo tam">Subtitulo</h2>
         <hr>
-        <mark>Remarcado</mark>
+        <mark class="estilo">Remarcado</mark>
     </header>
+    
+    <nav id="menu">
+       <!-- ul.estilo>(li>a[href=option$.html]{Option $})*3 -->
+        <ul class="estilo">
+           Texto
+            <li><a href="option1.html">Option 1</a></li>
+            <li><a href="option2.html">Option 2</a></li>
+            <li><a href="option3.html">Option 3</a></li>
+        </ul>
+    </nav>
+    
     <!-- sect#contenido>h2+article -->
     <section id="contenido">
         <h2>Contenido</h2>
         <article id="noticia1">
+          <h2>Noticia 1</h2>
            <!-- (p>lorem)*4 -->
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptates suscipit molestias, id ea beatae natus, dolorem quasi error numquam commodi quia tempore iusto perspiciatis, laudantium hic itaque, autem atque!</p>
             <p>Maxime impedit placeat culpa quasi libero quia suscipit pariatur voluptatum perferendis, nemo ducimus deserunt. Ut recusandae voluptates facere optio saepe nostrum et, temporibus eveniet similique id nisi, suscipit labore dignissimos!</p>
@@ -31,6 +59,13 @@
     <!-- footer#pie>address -->
     <footer id="pie">
         <address>Direccion X Col Y.</address>
+        <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
     </footer>
     
 </body>
