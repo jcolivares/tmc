@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Formularios</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header id="encabezado">
+        <h1>Ejemplo de Formularios</h1>
+        <hr>
+    </header>
+    <!-- sect#principal>h2+form -->
+    <section id="principal">
+        <h2>HTML 4</h2>
+        <form action="" method="get">
+           <!-- label+input+br -->
+            <label for="nombre" title="Pon aqui tu nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" size="10" maxlength="5" placeholder="pon tu nombre" title="pon algo">
+            <br>
+            <label for="contra">Contraseña:</label><input type="password" id="contra" name="contra" required><br>
+
+            <label for="beca">Tienes beca?</label>
+            <input type="checkbox" id="beca" name="beca" value="1" checked>
+            <br>
+
+            <!-- input[type=radio name=edocivil value=$]*3 -->
+            <input type="radio" name="edocivil" value="1" checked="checked"> Soltero
+            <input type="radio" name="edocivil" value="2"> Casado
+            <input type="radio" name="edocivil" value="3"> Viudo
+
+            <br>
+            <label for="cv">CV</label>
+            <input type="file">
+            <input type="hidden" name="variable"  value="secreto">
+            <br>
+
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentario" id="comentarios" cols="30" rows="10"></textarea>
+            <br>
+
+            <!-- select#estados>(opt[value=$]{Opcion $})*4 -->
+            <select name="estados" id="estados">
+                <option value="1">Opcion 1</option>
+                <option value="2" selected>Opcion 2</option>
+                <option value="3">Opcion 3</option>
+                <option value="4">Opcion 4</option>
+            </select>
+
+            <!-- nuevas etiquetas forms html5 -->
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad" min="0" max="120" step="0.2">
+            <br>
+
+
+            <br>
+            <input type="submit" id="btn_enviar" value="Enviar...">
+            <input type="reset" id="btn_limpiar" value="Limpiar!!!">
+            <input id="btn_check" type="image" src="img/check.jpg">
+            <input type="button" value="x">
+            <button id="buton" onclick="alert('Hola mundo')">Presioname</button>
+        </form>
+    </section>
+
+</body>
+</html>

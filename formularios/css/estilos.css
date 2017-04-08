@@ -1,0 +1,11 @@
+
+#btn_check {
+    width: 64px;
+    height: 64px;
+}
+
+input:focus {
+    background: yellow;
+    color: red;
+    font-size: 5em;
+}
