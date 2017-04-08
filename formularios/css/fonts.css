@@ -1,0 +1,8 @@
+/*
+Ejemplo de fuentes externas
+*/
+
+@font-face{
+    src: url(/fonts/SoberanaSansCondensed-Italic.otf);
+    font-family: 'unid';
+}
