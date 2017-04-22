@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<biblioteca>
+    <libro id="1">
+        <nombre>Como programar en Internet y la WWW</nombre>
+        <editorial>Pearson Educación</editorial>
+        <ISBN>123-4567-8910-123</ISBN>
+        <descripcion>
+            Libro que incluye HTML5, CSS3, Javascript....
+       </descripcion>
+    </libro>
+    <!-- libro#2>nombre+editorial+isbn+edicion -->
+    <libro id="2">
+        <nombre>Jquery Mobile</nombre>
+        <img src="" alt=""/>
+        <editorial>Packet Publisher</editorial>
+        <isbn>123-4567-890</isbn>
+        <edicion>3</edicion>
+    </libro>
+</biblioteca>
