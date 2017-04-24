@@ -5,3 +5,15 @@
     display: inline-block;
     background: brown;
 }
+
+.clase {
+    color: greenyellow;
+  background: gray;
+  border: 1px solid black;
+  text-align: right
+}
+
+#globo {
+    font-size: 4em;
+    color: red;
+}
