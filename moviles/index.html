@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Jquery</title>
+      <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+   <!--
+    <h1 data-movil="true">Ejemplo de atributos data</h1>-->
+    <div id="pag1" data-role="page">
+
+       <aside id="opciones" data-role="panel">
+           <label for="semestre">Semestre</label><input type="range" value="1" min="1" max="4">
+       </aside>
+
+       <aside data-role="popup" id="estados">
+           <select name="" id="">
+               <option value="1">Opcion 1</option>
+               <option value="2">Opcion 2</option>
+               <option value="3">Opcion 3</option>
+               <option value="4">Opcion 4</option>
+           </select>
+       </aside>
+
+        <div data-role="header">
+            <h1>Titulo</h1>
+            <a href="#estados" data-theme="b" data-rel="popup">Enlace</a>
+            <nav data-role="navbar">
+                <a href="#opciones" data-rel="panel">X</a>
+                <a href="" data-icon="star">Y</a>
+            </nav>
+        </div>
+
+        <div data-role="content">
+<a href="">Enlace normal</a>
+            <a href="http://www.unid.mx" data-role="button">Ver mas..</a>
+            <a href="#dialogo" data-role="button" data-inline="true" data-rel="dialog">Boton enlinea</a>
+
+            <ul data-role="listview" data-inset="true">
+                <li><a href="">A</a></li>
+                <li><a href="">B</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">D</a></li>
+            </ul>
+
+    <div data-role="collapsible-set">
+                        <div data-role="collapsible">
+                    <h3>Ver mas...</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt voluptates quos soluta corporis mollitia, eveniet inventore saepe ex sit ipsa quod voluptatem aliquid doloremque, doloribus numquam porro ad. Soluta!</p>
+                </div>
+
+                <div data-role="collapsible">
+                    <h2>IMPORTANTE</h2>
+                    <mark>Sobre el proyecto...</mark>
+                </div>
+            </div>
+
+            <table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+     <thead>
+       <tr>
+         <th data-priority="2">Rank</th>
+         <th>Movie Title</th>
+         <th data-priority="3">Year</th>
+         <th data-priority="1"><abbr title="Rotten Tomato Rating">Rating</abbr></th>
+         <th data-priority="5">Reviews</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>1</th>
+         <td><a href="http://en.wikipedia.org/wiki/Citizen_Kane" data-rel="external">Citizen Kane</a></td>
+         <td>1941</td>
+         <td>100%</td>
+         <td>74</td>
+       </tr>
+       <tr>
+         <th>2</th>
+         <td><a href="http://en.wikipedia.org/wiki/Casablanca_(film)" data-rel="external">Casablanca</a></td>
+         <td>1942</td>
+         <td>97%</td>
+         <td>64</td>
+       </tr>
+       <tr>
+         <th>3</th>
+         <td><a href="http://en.wikipedia.org/wiki/The_Godfather" data-rel="external">The Godfather</a></td>
+         <td>1972</td>
+         <td>97%</td>
+         <td>87</td>
+       </tr>
+       <tr>
+         <th>4</th>
+         <td><a href="http://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)" data-rel="external">Gone with the Wind</a></td>
+         <td>1939</td>
+         <td>96%</td>
+         <td>87</td>
+       </tr>
+       <tr>
+         <th>5</th>
+         <td><a href="http://en.wikipedia.org/wiki/Lawrence_of_Arabia_(film)" data-rel="external">Lawrence of Arabia</a></td>
+         <td>1962</td>
+         <td>94%</td>
+         <td>87</td>
+       </tr>
+       <tr>
+         <th>6</th>
+         <td><a href="http://en.wikipedia.org/wiki/Dr._Strangelove" data-rel="external">Dr. Strangelove Or How I Learned to Stop Worrying and Love the Bomb</a></td>
+         <td>1964</td>
+         <td>92%</td>
+         <td>74</td>
+       </tr>
+       <tr>
+         <th>7</th>
+         <td><a href="http://en.wikipedia.org/wiki/The_Graduate" data-rel="external">The Graduate</a></td>
+         <td>1967</td>
+         <td>91%</td>
+         <td>122</td>
+       </tr>
+       <tr>
+         <th>8</th>
+         <td><a href="http://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)" data-rel="external">The Wizard of Oz</a></td>
+         <td>1939</td>
+         <td>90%</td>
+         <td>72</td>
+       </tr>
+       <tr>
+         <th>9</th>
+         <td><a href="http://en.wikipedia.org/wiki/Singin%27_in_the_Rain" data-rel="external">Singin' in the Rain</a></td>
+         <td>1952</td>
+         <td>89%</td>
+         <td>85</td>
+       </tr>
+       <tr>
+         <th>10</th>
+         <td class="title"><a href="http://en.wikipedia.org/wiki/Inception" data-rel="external">Inception</a></td>
+         <td>2010</td>
+         <td>84%</td>
+         <td>78</td>
+       </tr>
+     </tbody>
+   </table>
+
+        </div>
+
+        <div data-role="footer">
+            <a href="#acerca" data-transition="flip" data-icon="gear">Acerca de...</a>
+        </div>
+
+    </div>
+
+    <section id="acerca" data-role="page" data-theme="c">
+
+        <header data-role="header">
+            <a href="" data-rel="back" data-icon="arrow-l" data-iconpos="right" >Regresar</a>
+            <h1>Acerca de...</h1>
+        </header>
+
+        <article data-role="article">
+            <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre">
+        </article>
+
+    </section>
+
+    <section id="dialogo" data-role="page">
+
+        <main data-role="content">
+            <label for="beca">Tienes beca</label><input type="text" name="beca">
+        </main>
+
+    </section>
+
+</body>
+</html>

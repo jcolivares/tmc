@@ -1,0 +1,23 @@
+/*otro archivo*/
+
+.herencia {
+    padding: 0;
+    margin: 0;
+    font-size: 12pt;
+}
+
+#algo {
+    font: {
+        size: 3em;
+        weight: 300;
+        family: "Helvetica", sans-serif;
+    }
+}
+
+@mixin borde($radio){
+    -webkit-border-radius: $radio;
+    -o-border-radius: $radio;
+    -ms-border-radius: $radio;
+    -moz-border-radius: $radio;
+    border-radius: $radio;
+}

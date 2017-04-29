@@ -1,0 +1,15 @@
+/*
+Ejemplo de SCSS
+*/
+
+//Código de una sola línea
+
+$fondo: #FFAA00;
+
+p {
+    color: $fondo;
+}
+
+span.estilo{
+    background: $fondo;
+}

@@ -1,0 +1,16 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "scss/estilos.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": true,
+                "outputStyle": "nested"
+            },
+            "lee-and-dan.osftp.preferences.lee-and-dan.osftp.preferences.version-": "1.2.10",
+            "brackets-git.gitPath": "git"
+        }
+    }
+}

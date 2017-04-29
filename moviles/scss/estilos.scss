@@ -1,0 +1,37 @@
+/*
+Ejemplo de SCSS
+*/
+
+//Código de una sola línea
+
+$fondo: #FFAA00;
+$tam: 400px;
+
+@import "otro";
+
+p {
+    color: $fondo;
+    width: $tam*2;
+    @include borde(5px);
+}
+
+span.estilo{
+    background: $fondo;
+    height: $tam;
+    @extend .herencia;
+}
+
+nav {
+    text-align: center;
+    color: blue;
+    @extend .herencia;
+
+    ul {
+        font-family: arial;
+        @include borde(1px);
+
+        li {
+            border: 1px solid black;
+        }
+    }
+}

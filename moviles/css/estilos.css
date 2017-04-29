@@ -1,0 +1,48 @@
+/*
+Ejemplo de SCSS
+*/
+/*otro archivo*/
+/* line 3, /home/jcolivares/Desktop/tmc/moviles/scss/otro.scss */
+.herencia, span.estilo, nav {
+  padding: 0;
+  margin: 0;
+  font-size: 12pt; }
+
+/* line 9, /home/jcolivares/Desktop/tmc/moviles/scss/otro.scss */
+#algo {
+  font-size: 3em;
+  font-weight: 300;
+  font-family: "Helvetica", sans-serif; }
+
+/* line 12, /home/jcolivares/Desktop/tmc/moviles/scss/estilos.scss */
+p {
+  color: #FFAA00;
+  width: 800px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 18, /home/jcolivares/Desktop/tmc/moviles/scss/estilos.scss */
+span.estilo {
+  background: #FFAA00;
+  height: 400px; }
+
+/* line 24, /home/jcolivares/Desktop/tmc/moviles/scss/estilos.scss */
+nav {
+  text-align: center;
+  color: blue; }
+  /* line 29, /home/jcolivares/Desktop/tmc/moviles/scss/estilos.scss */
+  nav ul {
+    font-family: arial;
+    -webkit-border-radius: 1px;
+    -o-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px; }
+    /* line 33, /home/jcolivares/Desktop/tmc/moviles/scss/estilos.scss */
+    nav ul li {
+      border: 1px solid black; }
+
+/*# sourceMappingURL=estilos.css.map */
